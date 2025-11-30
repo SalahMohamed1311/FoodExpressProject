@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cart</title>
+      <link rel="stylesheet" href="/CSS/cart.css">
+
+</head>
+<body>
+
+  <h1>Your Cart</h1>
+
+  <div class="cart-container">
+
+    <div class="cart-item">
+      <div class="item-info">
+        <img src="https://via.placeholder.com/80" alt="food" />
+        <div class="item-details">
+          <h3>Margherita Pizza</h3>
+          <p>0.0L.E</p>
+        </div>
+      </div>
+
+      <div class="quantity">
+        <button>-</button>
+        <span>0</span>
+        <button>+</button>
+      </div>
+
+      <button class="remove-btn">Remove</button>
+    </div>
+
+    <div class="cart-item">
+      <div class="item-info">
+        <img src="https://via.placeholder.com/80" alt="food" />
+        <div class="item-details">
+          <h3>Cheese Burger</h3>
+          <p>0.0L.E</p>
+        </div>
+      </div>
+
+      <div class="quantity">
+        <button>-</button>
+        <span>0</span>
+        <button>+</button>
+      </div>
+
+      <button class="remove-btn">Remove</button>
+    </div>
+
+    <div class="total-box">
+      Total: 0.0L.E
+    </div>
+
+    <button class="checkout-btn">Checkout</button>
+
+  </div>
+<button class="global-home-btn" onclick="goToHomePage()" title="Go to Home Page">
+        <i class="fas fa-home"></i> 
+        </button>
+    
+    <script src="/JavaScript/script.js"></script>
+</body>
+</html>

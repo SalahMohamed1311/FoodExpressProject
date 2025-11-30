@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Food Delivery Service</title>
+    <link rel="stylesheet" href="/CSS/home.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <a href="index.html">🍕 FoodExpress</a>
+        </div>
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="restaurants.html">Restaurants</a>
+            <a href="cart.html"><i class="fas fa-shopping-cart"></i> Cart</a>s
+            <a href="login.html"><i class="fas fa-user"></i> Login / Register</a>
+            <a href="admin.html" class="admin-link" style="display:none;">Admin</a>
+        </nav>
+    </header>
+
+    <div class="hero-section">
+        <div class="hero-content">
+            <h1>Your Favorite Meals, Delivered Fast.</h1>
+            <p>Order from the best local restaurants—from burgers and pizza to coffee and desserts.</p>
+            <button onclick="navigateTo('restaurants.html')" class="cta-button">
+                Explore Restaurants Now!
+            </button>
+        </div>
+    </div>
+
+    <div class="features-sections">
+        <h2>Why Choose Us?</h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <i class="fas fa-motorcycle"></i>
+                <h3>Fast Delivery</h3>
+                <p>We ensure your order arrives hot and fresh, right to your door.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-utensils"></i>
+                <h3>Top Restaurants</h3>
+                <p>Browse menus from a curated list of high-quality local places.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-shopping-basket"></i>
+                <h3>Easy Ordering</h3>
+                <p>Simple steps to select your items and checkout effortlessly.</p>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 FoodExpress </p>
+    </footer>
+
+    <script src="/JavaScript/script.js"></script>
+</body>
+</html>
